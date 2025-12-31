@@ -33,8 +33,3 @@ from sklearn.metrics import accuracy_score
 y_pred = model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print(f'Accuracy: {accuracy}')
-
-# 7. Save and upload the model
-import joblib
-
-joblib.dump(model, 'Parkinsons.joblib')
