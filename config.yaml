@@ -1,2 +1,2 @@
 path: "Parkinsons.joblib"
-selected_features: ['PPE', 'DFA']
+features: ['PPE', 'DFA']
