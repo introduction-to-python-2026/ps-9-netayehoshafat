@@ -6,8 +6,8 @@ df = df.dropna()
 df.head()
 
 # 2. Select features
-selected_features = ['PPE',  'DFA']
-X = df[selected_features]
+features = ['PPE',  'DFA']
+X = df[features]
 y = df['status']
 
 # 3. Scale the data
